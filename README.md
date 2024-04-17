@@ -44,3 +44,9 @@ Follow these steps to set up and run the Book Store Project locally:
 
 ### [Live Demo ](https://books-vault.vercel.app/)
 ### [API ](https://books-vault.onrender.com)
+
+### screen shots:
+
+![image](https://github.com/Venkat-3010/Books_Vault/blob/main/frontend/src/assets/Screenshot%202024-04-18%20012452.png)
+
+![image](https://github.com/Venkat-3010/Books_Vault/blob/main/frontend/src/assets/Screenshot%202024-04-18%20012541.png)
