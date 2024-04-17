@@ -46,12 +46,12 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-router.put(":/id", async (req, res) => {
+router.put("/:id", async (req, res) => {
   try {
     if (!req.body.title || !req.body.author || !req.body.publishedYear) {
       return res
         .status(404)
-        .send("Title, Author Name and Published year is required!");
+        .send("Title , Author name and publish year are required ");
     }
     const id = req.params.id;
     const result = await Book.findByIdAndUpdate(id, req.body);
@@ -59,9 +59,9 @@ router.put(":/id", async (req, res) => {
       return res.status(404).send("book not found");
     }
     return res.status(200).send("book updated");
-  } catch (err) {
-    console.log(err);
-    return res.status(500).send({ message: err.message });
+  } catch (error) {
+    console.log(error);
+    return res.status(500).send({ message: error.message });
   }
 });
 
