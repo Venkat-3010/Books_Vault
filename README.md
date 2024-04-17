@@ -42,5 +42,5 @@ Follow these steps to set up and run the Book Store Project locally:
     npm start
     ````
 
-###[Live Demo: ](https://books-vault.vercel.app/)
-###[API: ](https://books-vault.onrender.com)
+### [Live Demo: ](https://books-vault.vercel.app/)
+### [API: ](https://books-vault.onrender.com)
